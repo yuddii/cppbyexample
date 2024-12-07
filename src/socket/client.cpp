@@ -47,7 +47,7 @@ int main()
 
     // 发送数据
     std::string message = "HELLO,SERVER";
-    int byteWritten = send(clientSocket, message.c_str(), message.length(), 0);
+    int byteWritten = send(clientSocket, message.c_str(), message.size(), 0);
     if (byteWritten == SOCKET_ERROR)
     {
         std::cerr << "客户端发送数据失败" << std::endl;
