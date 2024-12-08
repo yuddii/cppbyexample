@@ -3,5 +3,5 @@
 class Animal
 {
 public:
-    virtual void makeSound();
+    virtual void makeSound() {}
 };
