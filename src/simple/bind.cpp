@@ -1,25 +1,43 @@
 #include <iostream>
 #include <functional>
 
-class Base
+class IAnimal
 {
 public:
-    virtual void operation(int num)
-    {
-        return num;
-    }
-}
+    virtual void makeSound() = 0;
+};
 
-class Derived1
+class Dog : public IAnimal
 {
 public:
-    int operation(int num) override
+    void makeSound() override
     {
-        return num * 3;
+        std::cout << "dog dog" << std::endl;
     }
 };
 
+class Cat : public IAnimal
+{
+public:
+    void makeSound() override
+    {
+        std::cout << "cat cat!!!" << std::endl;
+    }
+};
+
+int RunFunc(std::function<void()> f)
+{
+    f();
+}
+
+// 绑定成员函数
 int main()
 {
+    Dog d1;
+    auto dog = std::bind(&IAnimal::makeSound, &d1);
+    RunFunc(dog);
+    Cat c1;
+    auto cat = std::bind(&IAnimal::makeSound, &c1);
+    RunFunc(cat);
     return 0;
 }
