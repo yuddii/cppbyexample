@@ -2,7 +2,7 @@
 #include <cstring>
 #include "task.h"
 
-using namespace MyNameSpace;
+using namespace TaskSpace;
 
 Task::~Task()
 {

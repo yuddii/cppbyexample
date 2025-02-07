@@ -2,6 +2,7 @@
 #include <condition_variable>
 #include <iostream>
 #include "task.h"
+#include <thread>
 
 class Task;
 
@@ -13,7 +14,7 @@ public:
     void RunTask();
 
 private:
-    Task *task_;
+    TaskSpace::Task *task_;
     std::mutex mtx_;
     std::condition_variable condition_;
     std::string threadName_;

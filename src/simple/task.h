@@ -2,9 +2,8 @@
 #define TASK_H
 
 #include <iostream>
-#include <cstring>
 
-namespace MyNameSpace
+namespace TaskSpace
 {
     class Task
     {
