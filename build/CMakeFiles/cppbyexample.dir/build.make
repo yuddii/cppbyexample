@@ -71,69 +71,259 @@ include CMakeFiles/cppbyexample.dir/flags.make
 CMakeFiles/cppbyexample.dir/codegen:
 .PHONY : CMakeFiles/cppbyexample.dir/codegen
 
-CMakeFiles/cppbyexample.dir/src/simple/main.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
-CMakeFiles/cppbyexample.dir/src/simple/main.cpp.obj: E:/program/cppbyexample/src/simple/main.cpp
-CMakeFiles/cppbyexample.dir/src/simple/main.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppbyexample.dir/src/simple/main.cpp.obj"
-	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/simple/main.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\simple\main.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\simple\main.cpp.obj -c E:\program\cppbyexample\src\simple\main.cpp
+CMakeFiles/cppbyexample.dir/src/account.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/account.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/account.cpp.obj: E:/program/cppbyexample/src/account.cpp
+CMakeFiles/cppbyexample.dir/src/account.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppbyexample.dir/src/account.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/account.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\account.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\account.cpp.obj -c E:\program\cppbyexample\src\account.cpp
 
-CMakeFiles/cppbyexample.dir/src/simple/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/simple/main.cpp.i"
-	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\simple\main.cpp > CMakeFiles\cppbyexample.dir\src\simple\main.cpp.i
+CMakeFiles/cppbyexample.dir/src/account.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/account.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\account.cpp > CMakeFiles\cppbyexample.dir\src\account.cpp.i
 
-CMakeFiles/cppbyexample.dir/src/simple/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/simple/main.cpp.s"
-	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\simple\main.cpp -o CMakeFiles\cppbyexample.dir\src\simple\main.cpp.s
+CMakeFiles/cppbyexample.dir/src/account.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/account.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\account.cpp -o CMakeFiles\cppbyexample.dir\src\account.cpp.s
 
-CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
-CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.obj: E:/program/cppbyexample/src/simple/event_thread.cpp
-CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.obj"
-	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\simple\event_thread.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\simple\event_thread.cpp.obj -c E:\program\cppbyexample\src\simple\event_thread.cpp
+CMakeFiles/cppbyexample.dir/src/bind.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/bind.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/bind.cpp.obj: E:/program/cppbyexample/src/bind.cpp
+CMakeFiles/cppbyexample.dir/src/bind.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cppbyexample.dir/src/bind.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/bind.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\bind.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\bind.cpp.obj -c E:\program\cppbyexample\src\bind.cpp
 
-CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.i"
-	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\simple\event_thread.cpp > CMakeFiles\cppbyexample.dir\src\simple\event_thread.cpp.i
+CMakeFiles/cppbyexample.dir/src/bind.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/bind.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\bind.cpp > CMakeFiles\cppbyexample.dir\src\bind.cpp.i
 
-CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.s"
-	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\simple\event_thread.cpp -o CMakeFiles\cppbyexample.dir\src\simple\event_thread.cpp.s
+CMakeFiles/cppbyexample.dir/src/bind.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/bind.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\bind.cpp -o CMakeFiles\cppbyexample.dir\src\bind.cpp.s
 
-CMakeFiles/cppbyexample.dir/src/simple/task.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
-CMakeFiles/cppbyexample.dir/src/simple/task.cpp.obj: E:/program/cppbyexample/src/simple/task.cpp
-CMakeFiles/cppbyexample.dir/src/simple/task.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cppbyexample.dir/src/simple/task.cpp.obj"
-	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/simple/task.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\simple\task.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\simple\task.cpp.obj -c E:\program\cppbyexample\src\simple\task.cpp
+CMakeFiles/cppbyexample.dir/src/cat.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/cat.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/cat.cpp.obj: E:/program/cppbyexample/src/cat.cpp
+CMakeFiles/cppbyexample.dir/src/cat.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cppbyexample.dir/src/cat.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/cat.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\cat.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\cat.cpp.obj -c E:\program\cppbyexample\src\cat.cpp
 
-CMakeFiles/cppbyexample.dir/src/simple/task.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/simple/task.cpp.i"
-	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\simple\task.cpp > CMakeFiles\cppbyexample.dir\src\simple\task.cpp.i
+CMakeFiles/cppbyexample.dir/src/cat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/cat.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\cat.cpp > CMakeFiles\cppbyexample.dir\src\cat.cpp.i
 
-CMakeFiles/cppbyexample.dir/src/simple/task.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/simple/task.cpp.s"
-	E:\mingw64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\simple\task.cpp -o CMakeFiles\cppbyexample.dir\src\simple\task.cpp.s
+CMakeFiles/cppbyexample.dir/src/cat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/cat.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\cat.cpp -o CMakeFiles\cppbyexample.dir\src\cat.cpp.s
+
+CMakeFiles/cppbyexample.dir/src/const.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/const.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/const.cpp.obj: E:/program/cppbyexample/src/const.cpp
+CMakeFiles/cppbyexample.dir/src/const.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cppbyexample.dir/src/const.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/const.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\const.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\const.cpp.obj -c E:\program\cppbyexample\src\const.cpp
+
+CMakeFiles/cppbyexample.dir/src/const.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/const.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\const.cpp > CMakeFiles\cppbyexample.dir\src\const.cpp.i
+
+CMakeFiles/cppbyexample.dir/src/const.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/const.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\const.cpp -o CMakeFiles\cppbyexample.dir\src\const.cpp.s
+
+CMakeFiles/cppbyexample.dir/src/control.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/control.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/control.cpp.obj: E:/program/cppbyexample/src/control.cpp
+CMakeFiles/cppbyexample.dir/src/control.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cppbyexample.dir/src/control.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/control.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\control.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\control.cpp.obj -c E:\program\cppbyexample\src\control.cpp
+
+CMakeFiles/cppbyexample.dir/src/control.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/control.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\control.cpp > CMakeFiles\cppbyexample.dir\src\control.cpp.i
+
+CMakeFiles/cppbyexample.dir/src/control.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/control.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\control.cpp -o CMakeFiles\cppbyexample.dir\src\control.cpp.s
+
+CMakeFiles/cppbyexample.dir/src/dog.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/dog.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/dog.cpp.obj: E:/program/cppbyexample/src/dog.cpp
+CMakeFiles/cppbyexample.dir/src/dog.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cppbyexample.dir/src/dog.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/dog.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\dog.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\dog.cpp.obj -c E:\program\cppbyexample\src\dog.cpp
+
+CMakeFiles/cppbyexample.dir/src/dog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/dog.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\dog.cpp > CMakeFiles\cppbyexample.dir\src\dog.cpp.i
+
+CMakeFiles/cppbyexample.dir/src/dog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/dog.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\dog.cpp -o CMakeFiles\cppbyexample.dir\src\dog.cpp.s
+
+CMakeFiles/cppbyexample.dir/src/event_thread.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/event_thread.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/event_thread.cpp.obj: E:/program/cppbyexample/src/event_thread.cpp
+CMakeFiles/cppbyexample.dir/src/event_thread.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cppbyexample.dir/src/event_thread.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/event_thread.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\event_thread.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\event_thread.cpp.obj -c E:\program\cppbyexample\src\event_thread.cpp
+
+CMakeFiles/cppbyexample.dir/src/event_thread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/event_thread.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\event_thread.cpp > CMakeFiles\cppbyexample.dir\src\event_thread.cpp.i
+
+CMakeFiles/cppbyexample.dir/src/event_thread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/event_thread.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\event_thread.cpp -o CMakeFiles\cppbyexample.dir\src\event_thread.cpp.s
+
+CMakeFiles/cppbyexample.dir/src/function.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/function.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/function.cpp.obj: E:/program/cppbyexample/src/function.cpp
+CMakeFiles/cppbyexample.dir/src/function.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cppbyexample.dir/src/function.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/function.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\function.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\function.cpp.obj -c E:\program\cppbyexample\src\function.cpp
+
+CMakeFiles/cppbyexample.dir/src/function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/function.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\function.cpp > CMakeFiles\cppbyexample.dir\src\function.cpp.i
+
+CMakeFiles/cppbyexample.dir/src/function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/function.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\function.cpp -o CMakeFiles\cppbyexample.dir\src\function.cpp.s
+
+CMakeFiles/cppbyexample.dir/src/labatro.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/labatro.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/labatro.cpp.obj: E:/program/cppbyexample/src/labatro.cpp
+CMakeFiles/cppbyexample.dir/src/labatro.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cppbyexample.dir/src/labatro.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/labatro.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\labatro.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\labatro.cpp.obj -c E:\program\cppbyexample\src\labatro.cpp
+
+CMakeFiles/cppbyexample.dir/src/labatro.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/labatro.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\labatro.cpp > CMakeFiles\cppbyexample.dir\src\labatro.cpp.i
+
+CMakeFiles/cppbyexample.dir/src/labatro.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/labatro.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\labatro.cpp -o CMakeFiles\cppbyexample.dir\src\labatro.cpp.s
+
+CMakeFiles/cppbyexample.dir/src/main.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/main.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/main.cpp.obj: E:/program/cppbyexample/src/main.cpp
+CMakeFiles/cppbyexample.dir/src/main.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cppbyexample.dir/src/main.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/main.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\main.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\main.cpp.obj -c E:\program\cppbyexample\src\main.cpp
+
+CMakeFiles/cppbyexample.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/main.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\main.cpp > CMakeFiles\cppbyexample.dir\src\main.cpp.i
+
+CMakeFiles/cppbyexample.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/main.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\main.cpp -o CMakeFiles\cppbyexample.dir\src\main.cpp.s
+
+CMakeFiles/cppbyexample.dir/src/object.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/object.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/object.cpp.obj: E:/program/cppbyexample/src/object.cpp
+CMakeFiles/cppbyexample.dir/src/object.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cppbyexample.dir/src/object.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/object.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\object.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\object.cpp.obj -c E:\program\cppbyexample\src\object.cpp
+
+CMakeFiles/cppbyexample.dir/src/object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/object.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\object.cpp > CMakeFiles\cppbyexample.dir\src\object.cpp.i
+
+CMakeFiles/cppbyexample.dir/src/object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/object.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\object.cpp -o CMakeFiles\cppbyexample.dir\src\object.cpp.s
+
+CMakeFiles/cppbyexample.dir/src/print.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/print.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/print.cpp.obj: E:/program/cppbyexample/src/print.cpp
+CMakeFiles/cppbyexample.dir/src/print.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cppbyexample.dir/src/print.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/print.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\print.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\print.cpp.obj -c E:\program\cppbyexample\src\print.cpp
+
+CMakeFiles/cppbyexample.dir/src/print.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/print.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\print.cpp > CMakeFiles\cppbyexample.dir\src\print.cpp.i
+
+CMakeFiles/cppbyexample.dir/src/print.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/print.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\print.cpp -o CMakeFiles\cppbyexample.dir\src\print.cpp.s
+
+CMakeFiles/cppbyexample.dir/src/srand.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/srand.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/srand.cpp.obj: E:/program/cppbyexample/src/srand.cpp
+CMakeFiles/cppbyexample.dir/src/srand.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cppbyexample.dir/src/srand.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/srand.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\srand.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\srand.cpp.obj -c E:\program\cppbyexample\src\srand.cpp
+
+CMakeFiles/cppbyexample.dir/src/srand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/srand.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\srand.cpp > CMakeFiles\cppbyexample.dir\src\srand.cpp.i
+
+CMakeFiles/cppbyexample.dir/src/srand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/srand.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\srand.cpp -o CMakeFiles\cppbyexample.dir\src\srand.cpp.s
+
+CMakeFiles/cppbyexample.dir/src/task.cpp.obj: CMakeFiles/cppbyexample.dir/flags.make
+CMakeFiles/cppbyexample.dir/src/task.cpp.obj: CMakeFiles/cppbyexample.dir/includes_CXX.rsp
+CMakeFiles/cppbyexample.dir/src/task.cpp.obj: E:/program/cppbyexample/src/task.cpp
+CMakeFiles/cppbyexample.dir/src/task.cpp.obj: CMakeFiles/cppbyexample.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cppbyexample.dir/src/task.cpp.obj"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppbyexample.dir/src/task.cpp.obj -MF CMakeFiles\cppbyexample.dir\src\task.cpp.obj.d -o CMakeFiles\cppbyexample.dir\src\task.cpp.obj -c E:\program\cppbyexample\src\task.cpp
+
+CMakeFiles/cppbyexample.dir/src/task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cppbyexample.dir/src/task.cpp.i"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\program\cppbyexample\src\task.cpp > CMakeFiles\cppbyexample.dir\src\task.cpp.i
+
+CMakeFiles/cppbyexample.dir/src/task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cppbyexample.dir/src/task.cpp.s"
+	D:\software\msys2\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\program\cppbyexample\src\task.cpp -o CMakeFiles\cppbyexample.dir\src\task.cpp.s
 
 # Object files for target cppbyexample
 cppbyexample_OBJECTS = \
-"CMakeFiles/cppbyexample.dir/src/simple/main.cpp.obj" \
-"CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.obj" \
-"CMakeFiles/cppbyexample.dir/src/simple/task.cpp.obj"
+"CMakeFiles/cppbyexample.dir/src/account.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/bind.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/cat.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/const.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/control.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/dog.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/event_thread.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/function.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/labatro.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/main.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/object.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/print.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/srand.cpp.obj" \
+"CMakeFiles/cppbyexample.dir/src/task.cpp.obj"
 
 # External object files for target cppbyexample
 cppbyexample_EXTERNAL_OBJECTS =
 
-cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/simple/main.cpp.obj
-cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.obj
-cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/simple/task.cpp.obj
-cppbyexample.exe: CMakeFiles/cppbyexample.dir/build.make
-cppbyexample.exe: CMakeFiles/cppbyexample.dir/linkLibs.rsp
-cppbyexample.exe: CMakeFiles/cppbyexample.dir/objects1.rsp
-cppbyexample.exe: CMakeFiles/cppbyexample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cppbyexample.exe"
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/account.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/bind.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/cat.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/const.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/control.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/dog.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/event_thread.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/function.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/labatro.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/main.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/object.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/print.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/srand.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/src/task.cpp.obj
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/build.make
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/linkLibs.rsp
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/objects1.rsp
+E:/program/cppbyexample/bin/cppbyexample.exe: CMakeFiles/cppbyexample.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable E:\program\cppbyexample\bin\cppbyexample.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cppbyexample.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/cppbyexample.dir/build: cppbyexample.exe
+CMakeFiles/cppbyexample.dir/build: E:/program/cppbyexample/bin/cppbyexample.exe
 .PHONY : CMakeFiles/cppbyexample.dir/build
 
 CMakeFiles/cppbyexample.dir/clean:

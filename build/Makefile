@@ -128,77 +128,341 @@ cppbyexample/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/build
 .PHONY : cppbyexample/fast
 
-src/simple/event_thread.obj: src/simple/event_thread.cpp.obj
-.PHONY : src/simple/event_thread.obj
+src/account.obj: src/account.cpp.obj
+.PHONY : src/account.obj
 
 # target to build an object file
-src/simple/event_thread.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.obj
-.PHONY : src/simple/event_thread.cpp.obj
+src/account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/account.cpp.obj
+.PHONY : src/account.cpp.obj
 
-src/simple/event_thread.i: src/simple/event_thread.cpp.i
-.PHONY : src/simple/event_thread.i
+src/account.i: src/account.cpp.i
+.PHONY : src/account.i
 
 # target to preprocess a source file
-src/simple/event_thread.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.i
-.PHONY : src/simple/event_thread.cpp.i
+src/account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/account.cpp.i
+.PHONY : src/account.cpp.i
 
-src/simple/event_thread.s: src/simple/event_thread.cpp.s
-.PHONY : src/simple/event_thread.s
+src/account.s: src/account.cpp.s
+.PHONY : src/account.s
 
 # target to generate assembly for a file
-src/simple/event_thread.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/simple/event_thread.cpp.s
-.PHONY : src/simple/event_thread.cpp.s
+src/account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/account.cpp.s
+.PHONY : src/account.cpp.s
 
-src/simple/main.obj: src/simple/main.cpp.obj
-.PHONY : src/simple/main.obj
+src/bind.obj: src/bind.cpp.obj
+.PHONY : src/bind.obj
 
 # target to build an object file
-src/simple/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/simple/main.cpp.obj
-.PHONY : src/simple/main.cpp.obj
+src/bind.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/bind.cpp.obj
+.PHONY : src/bind.cpp.obj
 
-src/simple/main.i: src/simple/main.cpp.i
-.PHONY : src/simple/main.i
+src/bind.i: src/bind.cpp.i
+.PHONY : src/bind.i
 
 # target to preprocess a source file
-src/simple/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/simple/main.cpp.i
-.PHONY : src/simple/main.cpp.i
+src/bind.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/bind.cpp.i
+.PHONY : src/bind.cpp.i
 
-src/simple/main.s: src/simple/main.cpp.s
-.PHONY : src/simple/main.s
+src/bind.s: src/bind.cpp.s
+.PHONY : src/bind.s
 
 # target to generate assembly for a file
-src/simple/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/simple/main.cpp.s
-.PHONY : src/simple/main.cpp.s
+src/bind.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/bind.cpp.s
+.PHONY : src/bind.cpp.s
 
-src/simple/task.obj: src/simple/task.cpp.obj
-.PHONY : src/simple/task.obj
+src/cat.obj: src/cat.cpp.obj
+.PHONY : src/cat.obj
 
 # target to build an object file
-src/simple/task.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/simple/task.cpp.obj
-.PHONY : src/simple/task.cpp.obj
+src/cat.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/cat.cpp.obj
+.PHONY : src/cat.cpp.obj
 
-src/simple/task.i: src/simple/task.cpp.i
-.PHONY : src/simple/task.i
+src/cat.i: src/cat.cpp.i
+.PHONY : src/cat.i
 
 # target to preprocess a source file
-src/simple/task.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/simple/task.cpp.i
-.PHONY : src/simple/task.cpp.i
+src/cat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/cat.cpp.i
+.PHONY : src/cat.cpp.i
 
-src/simple/task.s: src/simple/task.cpp.s
-.PHONY : src/simple/task.s
+src/cat.s: src/cat.cpp.s
+.PHONY : src/cat.s
 
 # target to generate assembly for a file
-src/simple/task.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/simple/task.cpp.s
-.PHONY : src/simple/task.cpp.s
+src/cat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/cat.cpp.s
+.PHONY : src/cat.cpp.s
+
+src/const.obj: src/const.cpp.obj
+.PHONY : src/const.obj
+
+# target to build an object file
+src/const.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/const.cpp.obj
+.PHONY : src/const.cpp.obj
+
+src/const.i: src/const.cpp.i
+.PHONY : src/const.i
+
+# target to preprocess a source file
+src/const.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/const.cpp.i
+.PHONY : src/const.cpp.i
+
+src/const.s: src/const.cpp.s
+.PHONY : src/const.s
+
+# target to generate assembly for a file
+src/const.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/const.cpp.s
+.PHONY : src/const.cpp.s
+
+src/control.obj: src/control.cpp.obj
+.PHONY : src/control.obj
+
+# target to build an object file
+src/control.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/control.cpp.obj
+.PHONY : src/control.cpp.obj
+
+src/control.i: src/control.cpp.i
+.PHONY : src/control.i
+
+# target to preprocess a source file
+src/control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/control.cpp.i
+.PHONY : src/control.cpp.i
+
+src/control.s: src/control.cpp.s
+.PHONY : src/control.s
+
+# target to generate assembly for a file
+src/control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/control.cpp.s
+.PHONY : src/control.cpp.s
+
+src/dog.obj: src/dog.cpp.obj
+.PHONY : src/dog.obj
+
+# target to build an object file
+src/dog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/dog.cpp.obj
+.PHONY : src/dog.cpp.obj
+
+src/dog.i: src/dog.cpp.i
+.PHONY : src/dog.i
+
+# target to preprocess a source file
+src/dog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/dog.cpp.i
+.PHONY : src/dog.cpp.i
+
+src/dog.s: src/dog.cpp.s
+.PHONY : src/dog.s
+
+# target to generate assembly for a file
+src/dog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/dog.cpp.s
+.PHONY : src/dog.cpp.s
+
+src/event_thread.obj: src/event_thread.cpp.obj
+.PHONY : src/event_thread.obj
+
+# target to build an object file
+src/event_thread.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/event_thread.cpp.obj
+.PHONY : src/event_thread.cpp.obj
+
+src/event_thread.i: src/event_thread.cpp.i
+.PHONY : src/event_thread.i
+
+# target to preprocess a source file
+src/event_thread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/event_thread.cpp.i
+.PHONY : src/event_thread.cpp.i
+
+src/event_thread.s: src/event_thread.cpp.s
+.PHONY : src/event_thread.s
+
+# target to generate assembly for a file
+src/event_thread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/event_thread.cpp.s
+.PHONY : src/event_thread.cpp.s
+
+src/function.obj: src/function.cpp.obj
+.PHONY : src/function.obj
+
+# target to build an object file
+src/function.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/function.cpp.obj
+.PHONY : src/function.cpp.obj
+
+src/function.i: src/function.cpp.i
+.PHONY : src/function.i
+
+# target to preprocess a source file
+src/function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/function.cpp.i
+.PHONY : src/function.cpp.i
+
+src/function.s: src/function.cpp.s
+.PHONY : src/function.s
+
+# target to generate assembly for a file
+src/function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/function.cpp.s
+.PHONY : src/function.cpp.s
+
+src/labatro.obj: src/labatro.cpp.obj
+.PHONY : src/labatro.obj
+
+# target to build an object file
+src/labatro.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/labatro.cpp.obj
+.PHONY : src/labatro.cpp.obj
+
+src/labatro.i: src/labatro.cpp.i
+.PHONY : src/labatro.i
+
+# target to preprocess a source file
+src/labatro.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/labatro.cpp.i
+.PHONY : src/labatro.cpp.i
+
+src/labatro.s: src/labatro.cpp.s
+.PHONY : src/labatro.s
+
+# target to generate assembly for a file
+src/labatro.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/labatro.cpp.s
+.PHONY : src/labatro.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/object.obj: src/object.cpp.obj
+.PHONY : src/object.obj
+
+# target to build an object file
+src/object.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/object.cpp.obj
+.PHONY : src/object.cpp.obj
+
+src/object.i: src/object.cpp.i
+.PHONY : src/object.i
+
+# target to preprocess a source file
+src/object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/object.cpp.i
+.PHONY : src/object.cpp.i
+
+src/object.s: src/object.cpp.s
+.PHONY : src/object.s
+
+# target to generate assembly for a file
+src/object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/object.cpp.s
+.PHONY : src/object.cpp.s
+
+src/print.obj: src/print.cpp.obj
+.PHONY : src/print.obj
+
+# target to build an object file
+src/print.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/print.cpp.obj
+.PHONY : src/print.cpp.obj
+
+src/print.i: src/print.cpp.i
+.PHONY : src/print.i
+
+# target to preprocess a source file
+src/print.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/print.cpp.i
+.PHONY : src/print.cpp.i
+
+src/print.s: src/print.cpp.s
+.PHONY : src/print.s
+
+# target to generate assembly for a file
+src/print.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/print.cpp.s
+.PHONY : src/print.cpp.s
+
+src/srand.obj: src/srand.cpp.obj
+.PHONY : src/srand.obj
+
+# target to build an object file
+src/srand.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/srand.cpp.obj
+.PHONY : src/srand.cpp.obj
+
+src/srand.i: src/srand.cpp.i
+.PHONY : src/srand.i
+
+# target to preprocess a source file
+src/srand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/srand.cpp.i
+.PHONY : src/srand.cpp.i
+
+src/srand.s: src/srand.cpp.s
+.PHONY : src/srand.s
+
+# target to generate assembly for a file
+src/srand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/srand.cpp.s
+.PHONY : src/srand.cpp.s
+
+src/task.obj: src/task.cpp.obj
+.PHONY : src/task.obj
+
+# target to build an object file
+src/task.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/task.cpp.obj
+.PHONY : src/task.cpp.obj
+
+src/task.i: src/task.cpp.i
+.PHONY : src/task.i
+
+# target to preprocess a source file
+src/task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/task.cpp.i
+.PHONY : src/task.cpp.i
+
+src/task.s: src/task.cpp.s
+.PHONY : src/task.s
+
+# target to generate assembly for a file
+src/task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/src/task.cpp.s
+.PHONY : src/task.cpp.s
 
 # Help Target
 help:
@@ -209,15 +473,48 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cppbyexample
-	@echo ... src/simple/event_thread.obj
-	@echo ... src/simple/event_thread.i
-	@echo ... src/simple/event_thread.s
-	@echo ... src/simple/main.obj
-	@echo ... src/simple/main.i
-	@echo ... src/simple/main.s
-	@echo ... src/simple/task.obj
-	@echo ... src/simple/task.i
-	@echo ... src/simple/task.s
+	@echo ... src/account.obj
+	@echo ... src/account.i
+	@echo ... src/account.s
+	@echo ... src/bind.obj
+	@echo ... src/bind.i
+	@echo ... src/bind.s
+	@echo ... src/cat.obj
+	@echo ... src/cat.i
+	@echo ... src/cat.s
+	@echo ... src/const.obj
+	@echo ... src/const.i
+	@echo ... src/const.s
+	@echo ... src/control.obj
+	@echo ... src/control.i
+	@echo ... src/control.s
+	@echo ... src/dog.obj
+	@echo ... src/dog.i
+	@echo ... src/dog.s
+	@echo ... src/event_thread.obj
+	@echo ... src/event_thread.i
+	@echo ... src/event_thread.s
+	@echo ... src/function.obj
+	@echo ... src/function.i
+	@echo ... src/function.s
+	@echo ... src/labatro.obj
+	@echo ... src/labatro.i
+	@echo ... src/labatro.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
+	@echo ... src/object.obj
+	@echo ... src/object.i
+	@echo ... src/object.s
+	@echo ... src/print.obj
+	@echo ... src/print.i
+	@echo ... src/print.s
+	@echo ... src/srand.obj
+	@echo ... src/srand.i
+	@echo ... src/srand.s
+	@echo ... src/task.obj
+	@echo ... src/task.i
+	@echo ... src/task.s
 .PHONY : help
 
 

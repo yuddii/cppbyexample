@@ -84,12 +84,12 @@ clean: CMakeFiles/cppbyexample.dir/clean
 CMakeFiles/cppbyexample.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=1,2,3,4 "Built target cppbyexample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target cppbyexample"
 .PHONY : CMakeFiles/cppbyexample.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cppbyexample.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\program\cppbyexample\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\program\cppbyexample\build\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/cppbyexample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\program\cppbyexample\build\CMakeFiles 0
 .PHONY : CMakeFiles/cppbyexample.dir/rule
@@ -101,7 +101,7 @@ cppbyexample: CMakeFiles/cppbyexample.dir/rule
 # codegen rule for target.
 CMakeFiles/cppbyexample.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppbyexample.dir\build.make CMakeFiles/cppbyexample.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target cppbyexample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\program\cppbyexample\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Finished codegen for target cppbyexample"
 .PHONY : CMakeFiles/cppbyexample.dir/codegen
 
 # clean rule for target.

@@ -1,3 +1,3 @@
 D:\software\Cmake\bin\cmake.exe -E rm -f CMakeFiles\cppbyexample.dir/objects.a
-E:\mingw64\mingw64\bin\ar.exe qc CMakeFiles\cppbyexample.dir/objects.a @CMakeFiles\cppbyexample.dir\objects1.rsp
-E:\mingw64\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\cppbyexample.dir/objects.a -Wl,--no-whole-archive -o cppbyexample.exe -Wl,--out-implib,libcppbyexample.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cppbyexample.dir\linkLibs.rsp
+D:\software\msys2\ucrt64\bin\ar.exe qc CMakeFiles\cppbyexample.dir/objects.a @CMakeFiles\cppbyexample.dir\objects1.rsp
+D:\software\msys2\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cppbyexample.dir/objects.a -Wl,--no-whole-archive -o E:\program\cppbyexample\bin\cppbyexample.exe -Wl,--out-implib,E:\program\cppbyexample\bin\libcppbyexample.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cppbyexample.dir\linkLibs.rsp

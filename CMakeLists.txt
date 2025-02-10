@@ -1,13 +1,14 @@
-# 指定运行此项目所需的最低CMake版本
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.20.0)
 
-# 项目名称
 project(cppbyexample)
 
-# 设置c++版本
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 11)
 
-# 其他CMake代码
-add_executable(cppbyexample src/simple/main.cpp src/simple/event_thread.cpp src/simple/task.cpp)
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
-set(CMAKE_BUILD_TYPE "Debug")
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
+
+aux_source_directory(${CMAKE_SOURCE_DIR}/src SRC_LIST)
+
+add_executable(cppbyexample ${SRC_LIST})
+
