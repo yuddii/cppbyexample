@@ -1,14 +1,25 @@
-cmake_minimum_required(VERSION 3.20.0)
-
+cmake_minimum_required(VERSION 3.29.0)
 project(cppbyexample)
+set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_CXX_STANDARD 11)
+# 动态库存放位置
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin) 
 
-include_directories(${CMAKE_SOURCE_DIR}/include)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_LISTS)
+add_library(
+    common 
+    SHARED 
+    ${SRC_LISTS}
+)
 
-set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
+target_include_directories(common PUBLIC ${PROJECT_SOURCE_DIR}/include)
 
-aux_source_directory(${CMAKE_SOURCE_DIR}/src SRC_LIST)
+add_executable(cppbyexample main.cpp)
 
-add_executable(cppbyexample ${SRC_LIST})
+target_include_directories(cppbyexample PUBLIC ${PROJECT_SOURCE_DIR}/include)
+
+target_link_libraries(cppbyexample PUBLIC common)
+
+
+
 
